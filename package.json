@@ -1,0 +1,59 @@
+{
+  "name": "movie-listing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@craco/craco": "^6.4.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "axios": "^0.26.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^9.0.0",
+    "react-query": "^3.38.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "6",
+    "react-scripts": "5.0.1",
+    "sweetalert2": "^11.4.9",
+    "typescript": "~4.1.5",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.25",
+    "craco-alias": "^3.0.1"
+  }
+}

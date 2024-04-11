@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #20283e;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-track {
+  background: #121829;
+}
+
+*,
+html,
+body {
+  scroll-behavior: smooth;
+}
